@@ -1,7 +1,6 @@
 
 # Getting and Cleaning Data Course Project code book
 
-Author: "Venkat Vasam"
 
 
 # Introduction 
