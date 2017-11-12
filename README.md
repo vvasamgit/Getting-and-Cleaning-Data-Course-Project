@@ -17,7 +17,7 @@ The **run_analysis.R** script does the following
  1. Prepare data
  
     + Define variables for labels
-    + Load data from original data set files for further analysis
+    + Download and load data from original data set files for further analysis
     + Extract required feature columns only from the feature set 
     
 2.  Merges the training and the test sets with required variables to create one data set.
