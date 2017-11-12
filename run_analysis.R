@@ -152,7 +152,7 @@ finalDataSetTable<-finalDataSetTable%>%mutate(ActivityName=activityInfo[finalDat
   
 finalDataSetTableAvg<-finalDataSetTable%>%
                     select(ActivityName,SubjectId, tidyFinalDataSetColNames,-ActivityId)%>%
-                    group_by(ActivityName,SubjectId)%>%
+                    group_by(SubjectId,ActivityName)%>%
                     summarise_all(funs(mean))%>%unique
 
 
